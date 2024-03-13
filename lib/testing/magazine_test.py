@@ -28,7 +28,7 @@ class TestMagazine:
         assert magazine_1.name == "New Yorker"
 
         # comment out the next two lines if using Exceptions
-        #magazine_2.name = 2
+        # magazine_2.name = 2
         #assert magazine_2.name == "AD"
 
         # uncomment the next two lines if using Exceptions
@@ -110,6 +110,7 @@ class TestMagazine:
         author_1 = Author("Carry Bradshaw")
         magazine_1 = Magazine("Vogue", "Fashion")
         magazine_2 = Magazine("AD", "Architecture")
+
         article_1 = Article(author_1, magazine_1, "How to wear a tutu with style")
         article_2 = Article(author_1, magazine_1, "Dating life in NYC")
         article_3 = Article(author_1, magazine_2, "2023 Eccentric Design Trends")
